@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 1.215 s <<< FAILURE! - in TestSuite
+Academy.ValidateNavigationBar.initializebrowser  Time elapsed: 0.744 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.ValidateNavigationBar.initializebrowser(ValidateNavigationBar.java:22)
+
+Academy.ValidationTest.initializebrowser  Time elapsed: 0.749 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.ValidationTest.initializebrowser(ValidationTest.java:25)
+
+Academy.HomePage.initializebrowser  Time elapsed: 0.75 s  <<< FAILURE!
+java.lang.NullPointerException
+	at Academy.HomePage.initializebrowser(HomePage.java:21)
+

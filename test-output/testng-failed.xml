@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test validation(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.ValidationTest">
+        <methods>
+          <include name="initializebrowser"/>
+          <include name="teardown"/>
+          <include name="BasePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.ValidationTest -->
+    </classes>
+  </test> <!-- Test validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
